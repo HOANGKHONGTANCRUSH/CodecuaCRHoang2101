@@ -1,0 +1,78 @@
+@font-face {
+    font-family: myFont;
+    src: url(ui/fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    background-color: #f2f2f2;
+}
+
+#error{
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    background-color: #f2f2f2;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+#wrapper {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#myform input[type="text"],
+#myform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#myform input[type="radio"] {
+    margin-right: 5px;
+}
+
+#myform input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#myform input[type="button"]:hover {
+    background-color: #166fe5;
+}
+
+#myform a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1877f2;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#myform a:hover {
+    text-decoration: underline;
+}
